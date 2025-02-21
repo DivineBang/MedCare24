@@ -1,0 +1,27 @@
+{
+    "services__wrapp_1": {
+      "default": "Tibbiy stajirovkalarni tashkil etish",
+      "expanded": "Biz shifokorlar uchun Germaniya va Yevropadagi yetakchi klinikalarda individual o‘quv dasturlarini taqdim etamiz, ularning malakasini oshirish va yangi davolash usullarini o‘zlashtirishga yordam beramiz."
+    },
+    "services__wrapp_2": {
+      "default": "Evropadagi davolash va diagnostika",
+      "expanded": "Yetakchi mutaxassislar va tibbiyot markazlarini tanlash, kompleks tekshiruvlar va check-up dasturlari, innovatsion davolash usullari."
+    },
+    "services__wrapp_3": {
+      "default": "Ikkinchi tibbiy fikr",
+      "expanded": "Yevropaning yetakchi shifokorlari bilan maslahatlashish, oldindan qo‘yilgan diagnozlarni tahlil qilish va qayta ko‘rib chiqish, shaxsiy davolash rejalari."
+    },
+    "services__wrapp_4": {
+      "default": "Reabilitatsiya dasturlarini tanlash",
+      "expanded": "Amaliyotlar va jarohatlardan so‘ng tiklanish, xronik kasalliklari bor bemorlarni reabilitatsiya qilish, sport tibbiyoti va fizioterapiya dasturlari."
+    },
+    "services__wrapp_5": {
+      "default": "Tibbiy hujjatlarni tarjima qilish",
+      "expanded": "Kasallik tarixlari, tahlillar, xulosalarning rasmiy tarjimasi, chet el klinikalari uchun hujjatlarni tayyorlash."
+    },
+    "services__wrapp_6": {
+      "default": "Transfer va kuzatish",
+      "expanded": "Safarni tashkil etish, aeroportda kutib olish, yashashni bron qilish, transportni ta'minlash, shaxsiy tibbiy kuzatuvchi."
+    }
+  }
+  

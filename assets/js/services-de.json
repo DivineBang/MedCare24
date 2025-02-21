@@ -1,0 +1,27 @@
+{
+    "services__wrapp_1": {
+      "default": "Organisation von medizinischen Praktika",
+      "expanded": "Wir bieten maßgeschneiderte Ausbildungsprogramme für Ärzte in führenden Kliniken in Deutschland und Europa an, um ihre Qualifikationen zu verbessern und neue Behandlungsmethoden zu erlernen."
+    },
+    "services__wrapp_2": {
+      "default": "Behandlung und Diagnose in Europa",
+      "expanded": "Auswahl von führenden Spezialisten und medizinischen Zentren, umfassende Untersuchungen und Check-up-Programme, innovative Behandlungsmethoden."
+    },
+    "services__wrapp_3": {
+      "default": "Zweites medizinisches Urtei",
+      "expanded": "Konsultationen mit führenden Ärzten Europas, Analyse und Überprüfung früherer Diagnosen, individuelle Behandlungspläne."
+    },
+    "services__wrapp_4": {
+      "default": "Auswahl von Rehabilitation-Programmen",
+      "expanded": "Rehabilitation nach Operationen und Verletzungen, Rehabilitation von Patienten mit chronischen Erkrankungen, Programme der Sportmedizin und Physiotherapie."
+    },
+    "services__wrapp_5": {
+      "default": "Übersetzung medizinischer Dokumente",
+      "expanded": "Professionelle Übersetzung medizinischer Dokumente für eine präzise Diagnostik und Behandlung im Ausland."
+    },
+    "services__wrapp_6": {
+      "default": "Transfer und Begleitung",
+      "expanded": "Organisation der Reise, Begrüßung am Flughafen, Buchung von Unterkünften und Bereitstellung von Transport, persönlicher medizinischer Kurator."
+    }
+  }
+  

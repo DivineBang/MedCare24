@@ -1,0 +1,27 @@
+{
+    "services__wrapp_1": {
+      "default": "Organization of medical internships",
+      "expanded": "We provide individualized training programs for doctors in leading clinics in Germany and Europe, helping them improve their qualifications and master new treatment methods."
+    },
+    "services__wrapp_2": {
+      "default": "Treatment and Diagnostics in Europe",
+      "expanded": "Selection of leading specialists and medical centers, comprehensive examinations and check-up programs, innovative treatment methods."
+    },
+    "services__wrapp_3": {
+      "default": "Second medical opinion",
+      "expanded": "Consultations with leading doctors in Europe, analysis and review of previous diagnoses, personalized treatment plans."
+    },
+    "services__wrapp_4": {
+      "default": "Selection of rehabilitation programs",
+      "expanded": "Recovery after surgeries and injuries, rehabilitation of patients with chronic diseases, sports medicine and physiotherapy programs."
+    },
+    "services__wrapp_5": {
+      "default": "Translation of medical documents",
+      "expanded": "Official translation of medical histories, tests, and reports, preparation of documents for foreign clinics."
+    },
+    "services__wrapp_6": {
+      "default": "Transfer and accompaniment",
+      "expanded": "Trip organization, airport pick-up, accommodation booking, transportation arrangement, personal medical curator."
+    }
+  }
+  

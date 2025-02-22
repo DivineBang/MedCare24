@@ -1438,9 +1438,7 @@ ul,li{
     .offer,.treatment,.med,.policy,.map{
         padding: 50px 0;
     }
-    .portfolio__wrapp{
-        justify-items: center !important;
-    }
+    
 }
 
 /* 458-575 */
@@ -1612,5 +1610,8 @@ ul,li{
     }
     .logo__title_s{
         font-size: 9px;
+    }
+    .portfolio__wrapp{
+        justify-items: center ;
     }
 }

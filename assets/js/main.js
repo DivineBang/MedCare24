@@ -12,9 +12,9 @@ $('.header__menu').click(function (event) {
 $('.header__menu').click(function (event) {
     var menuImage = $('.burger__img');
     if (menuImage.attr('src').includes('close__burger')) {
-        menuImage.attr('src', 'assets/img/burger.png');
+        menuImage.attr('src', 'assets/img/burger.svg');
     } else {
-        menuImage.attr('src', 'assets/img/close__burger.png');
+        menuImage.attr('src', 'assets/img/close__burger.svg');
     }
 });
 

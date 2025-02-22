@@ -186,6 +186,7 @@ ul,li{
 }
 .about__set{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .about__title{
@@ -194,10 +195,9 @@ ul,li{
 
 .about__set_text{
     width: 580px;
-    font-size: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 }
 .about__img{
     border-radius: 30px;
@@ -285,7 +285,6 @@ ul,li{
 }
 .info__text{
     width: 400px;
-    text-align: center;
     font-weight: 600;
 }
 .portfolio{
@@ -550,7 +549,7 @@ ul,li{
 .team{
     padding: 50px 0;
 }
-.team__img{
+.team__set_img{
     border-radius: 30px;
 }
 .team__set{
@@ -702,7 +701,7 @@ ul,li{
 }
 .med__text{
     font-size: 16px;
-    line-height: 1.3em;
+    line-height: 1.5em;
 }
 .med__center{
     width: 410px;
@@ -739,6 +738,9 @@ ul,li{
     display: flex;
     align-items: start;
     gap: 20px;
+}
+.our__wrapp:nth-child(6) .our__right {
+    padding-top: 0;
 }
 .our__left{
     width: 50px;
@@ -921,28 +923,399 @@ ul,li{
 /* 1200-1440 */
 @media screen and (max-width: 1440px) {
     .container {
-        max-width: 1140px;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    
+    .offer__title,.internships__title_mod,.med__title{
+        font-size: 38px;
+    } 
+    .about__title,
+    .portfolio__title,
+    .treatment__title,
+    .team__title,
+    .treatment__title,
+    .faq__title,
+    .our__title,
+    .services__title{
+        font-size: 34px;
+    }
+    .choice__tab{
+        width: 350px;
+    }
+    .image-overlay{
+        width: 680px;
+    }
+    .portfolio__wrapp{
+        width: 350px;
+    }
+    .treatment__kit{
+        width: 550px;
+    }
+    .treatment__list{
+        margin: 20px 0;
+    }
+    .footer__agreement{
+        width: 350px;
+    }
+    .internships__right {
+        width: 600px;
+    }
+    .internships__text_mod{
+        padding-bottom: 25px;
+    }
+    .internships__right::before{
+        width: 600px;
+    }
+    .med__item{
+        width: 350px;
+    }
+    .med__center{
+        width: 410px;
+    }
+    .our__wrapp{
+        width: 540px;
+    }
+    .our__set,.services__set{
+        justify-content: center;
+    }
+    .services__wrapp_text{
+        font-size: 30px;
+    }
+    .services__wrapp{
+        width: 350px;
+        height: 340px;
+        padding: 40px;
+        gap: 70px;
+    }
+    .services__wrapp_text_expanded{
+        font-size: 16px;
+    }
+    iframe{
+        width: 550px;
+    }
+    .choice__tabs{
+        justify-content: center;
     }
 }
 
 /* 992-1199 */
 @media screen and (max-width: 1199px) {
     .container {
-        max-width: 960px;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .offer__title,.internships__title_mod,.med__title{
+        font-size: 36px;
+    } 
+    .about__title,
+    .portfolio__title,
+    .treatment__title,
+    .team__title,
+    .treatment__title,
+    .faq__title,
+    .our__title,
+    .services__title{
+        font-size: 31px;
+    }
+    .offer__left{
+        width: 470px;
+    }
+    .offer__img,
+    .about__img{
+        width: 470px;
+        height: 350px;
+    }
+    .about__set_text{
+        width: 470px;
+        gap: 20px;
+    }
+    .choice__tab{
+        width: 460px;
+    }
+    .image-overlay{
+        width: 470px;
+    }
+    .info__right {
+        gap: 40px;
+    }
+    .overlay-text{
+        font-size: 28px;
+    }
+    .portfolio__text{
+        font-size: 18px
+    }
+    .portfolio__wrapp{
+        width: 410px;
+    }
+    .portfolio__tabs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .accordion{
+        width: 100%;
+    }
+    .footer__first{
+        margin-right: 50px;
+    }
+    .treatment__kit{
+        width: 470px;
+        gap: 30px;
+    }
+    .treatment__set_img{
+        width: 470px;
+        height: 650px;
+    }
+    .treatment__img_first{
+        width: 350px;
+        height: 450px;
+    }
+    .treatment__img_second{
+        width: 300px;
+        height: 370px;
+    }
+    .team__set_img{
+        width: 450px;
+    }
+    .team__set_text{
+        width: 470px;
+    }
+    .team__text{
+        font-size: 18px;
+    }
+    .team__text_mod{
+        width: 100%;
+        font-size: 16px;
+        text-align: start;
+    }
+    .internships{
+        background: #0072dc70;
+        height: auto;
+    }
+    .internships__set{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .internships__left,.internships__right{
+        width: 100%;
+    }
+    .internships__right::before{
+        width: 100%;
+    }
+    .med__desk-mob{
+        display: flex;
+    }
+    .med__desk{
+        display: none;
+    }
+    .med__set{
+        flex-wrap: wrap;
+       
+    }
+    .med__item{
+        width: 450px;
+        height: auto;
+        gap: 20px;
+    }
+    .med__center{
+        display: none;
+    }
+    .our__wrapp{
+        width: 450px;
+    }
+    .our__left{
+        width: 40px;
+        height: 40px;
+    }
+    .our__right_title{
+        font-size: 20px;
+    }
+    .services__text{
+        width: 800px;
+    }
+    .services__wrapp_text{
+        font-size: 30px;
+    }
+    .services__wrapp{
+        width: 410px;
+        height: 400px;
+        padding: 80px 40px;
+        gap: 30px;
+    }
+    .services__wrapp_text_expanded{
+        font-size: 20px;
+    }
+    iframe{
+        width: 460px;
+        height: 400px;
+    }
+    .map__left{
+        width: 460px;
     }
 }
 
 /* 768-991 */
 @media screen and (max-width: 991px) {
     .container {
-        max-width: 720px;
+        max-width: 100%;
+        padding: 0 15px;
     }
+    .offer__title,.internships__title_mod,.med__title{
+        font-size: 30px;
+    } 
+    .about__title,
+    .portfolio__title,
+    .treatment__title,
+    .team__title,
+    .treatment__title,
+    .faq__title,
+    .our__title,
+    .services__title{
+        font-size: 28px;
+    }
+    .header__phone{
+        display: none;
+    }
+    .menu{
+        gap: 15px;
+    }
+    body{
+        font-size: 16px;
+        
+    }
+    .offer__left{
+        width: 340px;
+    }
+    .offer__img,.about__img{
+        width: 340px;
+        height: 300px;
+    }
+    .about__set_text{
+        width: 340px;
+    }
+    .about__text{
+        font-size: 14px;
+    }
+    .choice__tab{
+        width: 340px;
+    }
+    .info__set{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .image-overlay{
+        width: 100%;
+    }
+    .overlay-text{
+        font-size: 35px;
+    }
+    .info__text{
+        width: 100%;
+    }
+    .portfolio__text{
+        width: 100%;
+    }
+    .portfolio__wrapp{
+        width: 330px;
+    }
+    .footer__agreement{
+        font-size: 14px;
+    }
+    .footer__title{
+        font-size: 16px;
+        padding-bottom: 78px;
+    }
+    .footer__text{
+        font-size: 14px;
+    }
+    .footer__agreement{
+        width: 230px;
+    }
+    .footer__third{
+        width: 230px;
+    }
+    .footer__contact_text{
+        width: 100%;
+    }
+    .treatment__set{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .treatment__kit,
+    .team__set_text{
+        width: 100%;
+    }
+    .team__set{
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .team__text{
+        font-size: 16px;
+    }
+    .med__item{
+        width: 340px;
+    }
+    .our__wrapp{
+        width: 100%;
+    }
+    .our__wrapp:nth-child(6) .our__right {
+        padding-top: 10px;
+    }
+    .services__text{
+        width: 100%;
+        font-size: 18px;
+    }
+    .services__wrapp_text{
+        font-size: 20px;
+    }
+    .services__wrapp{
+        width: 330px;
+        height: 320px;
+        padding: 80px 30px;
+        gap: 40px;
+    }
+    .services__wrapp_text_expanded{
+        font-size: 14px;
+    }
+    .map__set{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .map__left{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+
+
+
+
 }
 
 /* 576-767 */
 @media screen and (max-width: 767px) {
     .container {
-        max-width: 540px;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .offer__title,.internships__title_mod,.med__title{
+        font-size: 28px;
+    } 
+    .about__title,
+    .portfolio__title,
+    .treatment__title,
+    .team__title,
+    .treatment__title,
+    .faq__title,
+    .our__title,
+    .services__title{
+        font-size: 26px;
+    }
+    body{
+        font-size: 14px;
     }
     .header__menu {
         display: flex;
@@ -992,7 +1365,79 @@ ul,li{
     .language__set{
         margin: 0 30px 0 auto;
     }
-
+    .offer__set{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .offer__left{
+        width: 100%;
+    }
+    .offer__img,.about__img{
+        width: 100%;
+        height: auto;
+    }
+    .about__set{
+        flex-direction: column-reverse;
+        gap: 40px;
+    }   
+    .about__set_text{
+        width: 100%;
+    }
+    .btn{
+        width: 220px;
+        font-size: 13px;
+    }
+    .portfolio__text{
+        font-size: 16px;
+    }
+    .footer__set{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer__first{
+        margin-right: 0;
+    }
+    .footer__third{
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer__agreement{
+        padding: 40px 0;
+        width: 300px;
+    }
+    .footer__title{
+        padding-bottom: 40px;
+    }
+    .footer__social_set{
+        padding-top: 40px;
+    }
+    .med__set{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .med__center{
+        display: flex;
+        height: 300px;
+    }
+    .med__item{
+        width: 450px;
+        
+    }
+    .our__wrapp:nth-child(6) .our__right {
+        padding-top: 0;
+    }
+    .our__right{
+        
+        padding-top: 0;
+    }
+    .our__left{
+        width: 30px;
+        height: 30px;
+        padding: 6px;
+    }
+    .offer,.treatment,.med,.policy,.map{
+        padding: 50px 0;
+    }
 }
 
 /* 458-575 */
@@ -1001,6 +1446,64 @@ ul,li{
         max-width: 100%;
         padding: 0 15px;
     }
+    .overlay-text{
+        font-size: 30px;
+    }
+    .overlay-text{
+        width: 100%;
+    }
+    .med__item{
+        width: 100%;
+    }
+    .treatment__set_img{
+        width: 100%;
+    }
+    .treatment__set_img{
+        height: 480px;
+    }
+    .treatment__img_first{
+        width: 250px;
+        height: 320px;
+    }
+    .treatment__img_second{
+        top: 180px;
+        width: 250px;
+        height: 280px;
+    }
+    .treatment__kit{
+        gap: 20px;
+    }
+    
+    .services__text,.med__text,.portfolio__text{
+        font-size: 14px;
+    }
+    .treatment__text_mod,.team__text{
+        font-size: 14px;
+    }
+    .internships__right{
+        height: auto;
+    }
+    .internships__sticky,.accordion-header{
+        font-size: 14px;
+    }
+    .accordion-body {
+        font-size: 12px;
+    }
+    .our__right_title{
+        font-size: 18px;
+    }
+    
+    .logo__title_set{
+        font-size: 18px;
+    }
+    .logo__title_s{
+        font-size: 10px;
+    }
+    .logo__item{
+        width: 40px;
+        height: 40px;
+    }
+
 }
 
 /* 375-457 */
@@ -1009,12 +1512,97 @@ ul,li{
         max-width: 100%;
         padding: 0 15px;
     }
+    body{
+        font-size: 13px;
+    }
+    .offer__title,.internships__title_mod,.med__title{
+        font-size: 26px;
+    } 
+    .about__title,
+    .portfolio__title,
+    .treatment__title,
+    .team__title,
+    .treatment__title,
+    .faq__title,
+    .our__title,
+    .services__title{
+        font-size: 24px;
+    }
+    
+    .overlay-text{
+        font-size: 20px;
+    }
+    .treatment__text_mod,
+    .team__text,
+    .team__text_mod,
+    .internships__list_text,
+    .med__text,
+    .our__right_text{
+        font-size: 13px;
+    }
+    .internships__text{
+        font-size: 14px;
+    }
+    .our__right_title{
+        font-size: 16px;
+    }
+    iframe{
+        height: 300px;
+    }
+    .info__img{
+        width: 20px;
+        height: 20px;
+    }
 }
 
 /* 320-374 */
 @media screen and (max-width: 374px) {
     .container {
         max-width: 100%;
-        padding: 0 15px;
+        padding: 0 10px;
+    }
+    body{
+        font-size: 12px;
+    }
+    .offer__title,.internships__title_mod,.med__title{
+        font-size: 24px;
+    } 
+    .about__title,
+    .portfolio__title,
+    .treatment__title,
+    .team__title,
+    .treatment__title,
+    .faq__title,
+    .our__title,
+    .services__title{
+        font-size: 22px;
+    }
+    
+    .overlay-text{
+        font-size: 18px;
+    }
+    .treatment__text_mod,
+    .team__text,
+    .team__text_mod,
+    .internships__list_text,
+    .med__text,
+    .our__right_text{
+        font-size: 12px;
+    }
+    .internships__text{
+        font-size: 13px;
+    }
+    .our__right_title{
+        font-size: 15px;
+    }
+    iframe{
+        height: 300px;
+    }
+    
+    .logo__title_set{
+        font-size: 16px;
+    }
+    .logo__title_s{
+        font-size: 9px;
     }
 }
